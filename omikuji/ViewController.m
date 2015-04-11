@@ -17,6 +17,7 @@
 {
     number = arc4random_uniform(10);
     
+    
     if(number >7){
         omikujiLabek.text=@"大吉!!!";
         omikujiLabek.textColor=[UIColor redColor];
