@@ -13,6 +13,28 @@
 @end
 
 @implementation ViewController
+-(IBAction)pushButton
+{
+    number = arc4random_uniform(10);
+    
+    if(number >7){
+        omikujiLabek.text=@"大吉!!!";
+        omikujiLabek.textColor=[UIColor redColor];
+    }else if(number<=7&&number>2)
+    {
+        omikujiLabek.text=@"吉";
+        omikujiLabek.textColor=[UIColor blackColor];
+    }else{
+        omikujiLabek.text=@"凶...";
+        omikujiLabek.textColor=[UIColor blueColor];
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated;
+{
+    omikujiLabek.text=@"おみくじゲーム";
+    omikujiLabek.textColor=[UIColor blackColor];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

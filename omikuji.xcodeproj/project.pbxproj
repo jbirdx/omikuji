@@ -15,6 +15,8 @@
 		F2CA6A411A8F3BE000C60B2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA6A401A8F3BE000C60B2A /* Images.xcassets */; };
 		F2CA6A441A8F3BE000C60B2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CA6A421A8F3BE000C60B2A /* LaunchScreen.xib */; };
 		F2CA6A501A8F3BE000C60B2A /* omikujiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA6A4F1A8F3BE000C60B2A /* omikujiTests.m */; };
+		F2CA6A5B1A8F3DDD00C60B2A /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA6A5A1A8F3DDD00C60B2A /* secondViewController.m */; };
+		F2CA6A5D1A8F44D500C60B2A /* syougatsu2_omijikuji2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CA6A5C1A8F44D500C60B2A /* syougatsu2_omijikuji2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		F2CA6A491A8F3BE000C60B2A /* omikujiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikujiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA6A4E1A8F3BE000C60B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CA6A4F1A8F3BE000C60B2A /* omikujiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omikujiTests.m; sourceTree = "<group>"; };
+		F2CA6A591A8F3DDD00C60B2A /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		F2CA6A5A1A8F3DDD00C60B2A /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		F2CA6A5C1A8F44D500C60B2A /* syougatsu2_omijikuji2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syougatsu2_omijikuji2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +88,14 @@
 		F2CA6A2F1A8F3BE000C60B2A /* omikuji */ = {
 			isa = PBXGroup;
 			children = (
+				F2CA6A5C1A8F44D500C60B2A /* syougatsu2_omijikuji2.png */,
 				F2CA6A341A8F3BE000C60B2A /* AppDelegate.h */,
 				F2CA6A351A8F3BE000C60B2A /* AppDelegate.m */,
 				F2CA6A3A1A8F3BE000C60B2A /* ViewController.h */,
 				F2CA6A3B1A8F3BE000C60B2A /* ViewController.m */,
 				F2CA6A3D1A8F3BE000C60B2A /* Main.storyboard */,
+				F2CA6A591A8F3DDD00C60B2A /* secondViewController.h */,
+				F2CA6A5A1A8F3DDD00C60B2A /* secondViewController.m */,
 				F2CA6A401A8F3BE000C60B2A /* Images.xcassets */,
 				F2CA6A421A8F3BE000C60B2A /* LaunchScreen.xib */,
 				F2CA6A371A8F3BE000C60B2A /* omikuji.xcdatamodeld */,
@@ -204,6 +212,7 @@
 			files = (
 				F2CA6A3F1A8F3BE000C60B2A /* Main.storyboard in Resources */,
 				F2CA6A441A8F3BE000C60B2A /* LaunchScreen.xib in Resources */,
+				F2CA6A5D1A8F44D500C60B2A /* syougatsu2_omijikuji2.png in Resources */,
 				F2CA6A411A8F3BE000C60B2A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +235,7 @@
 				F2CA6A361A8F3BE000C60B2A /* AppDelegate.m in Sources */,
 				F2CA6A3C1A8F3BE000C60B2A /* ViewController.m in Sources */,
 				F2CA6A331A8F3BE000C60B2A /* main.m in Sources */,
+				F2CA6A5B1A8F3DDD00C60B2A /* secondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
